@@ -1,0 +1,130 @@
+h1{
+  color: rgb(237, 237, 230);
+  font-family:cursive;
+}
+
+h2{
+  color: white;
+  font-family:cursive;
+}
+
+body {
+  font-family:cursive;
+  text-align: center;
+  background-color: #949191;
+
+}
+
+hr {
+  width: 500px;
+
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  
+  
+
+   background-color: rgb(99, 142, 143);
+   border: 6px solid #343f54;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   border-radius: 2vmin;
+   animation: show 500ms ease-in-out;
+   transition: 100ms ease-in-out;
+
+}
+
+.tile {
+  
+  width: 90px;
+  height: 90px;
+  border: 5px solid #b0b6bb;
+  border-radius: 2px;
+
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: show 500ms ease-in-out;
+  transition: 100ms ease-in-out;
+}
+
+
+
+.x2{
+  background-color: #c6ebef;
+  color: #1e4cd6;
+}
+
+.x4{
+  background-color: #b2e1f0;
+  color: #304fac;
+}
+
+.x8{
+  background-color: #8bbfe0;
+  color: #405bac;
+}
+
+
+.x16{
+  background-color: #89c8e1;
+  color: 		#ffffff;
+}
+
+.x32{
+  background-color: #70b8d4;
+  color: #ececec;
+}
+
+.x64{
+  background-color: #719cb7;
+  color: #ffffff;
+}
+
+.x128{
+  background-color: #478f99;
+  color: 		#ffffff;
+}
+
+.x256{
+  background-color: #225768;
+  color: #ececec;
+}
+
+.x512{
+  background-color: #2b5e7d;
+  color: #ffffff;
+}
+
+.x1024{
+  background-color: #104b53;
+  color: 		#ffffff;
+}
+
+.x2048{
+  background-color: #082d39;
+  color: #ececec;
+}
+
+.x4096{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.x8192{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+       /* animation: show 200ms ease-in-out;
+      transition: 100ms ease-in-out;
+    }
+
+    
+    } */ 
